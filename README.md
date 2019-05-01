@@ -1,15 +1,17 @@
-### Date created
-Include the date you created this project and README file.
+### Date created: 30 April 2019
 
-### Project Title
-Replace the Project Title
+### Project Title: Bikeshare_project
 
-### Description
-Describe what your project is about and what it does
+### Description:
+Python-based program designed to explore bikeshare data in Washington, New York City, and Chicago
 
-### Files used
-Include the files used
+### Files used:
+- PracticeProblem_1.py
+- PracticeProblem_2.py
+- PracticeProblem_3.py
+- bikeshare_2_RHtest.py
+- bikeshare_project.py
+- bikeshare_project.zip
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+### Credits:
+Submitted as part of Udacity's "Programming for Data Science" course curriculum
