@@ -47,7 +47,7 @@ def get_filters():
         else:
             print("\n You selected {}!".format(day))
 
-    print('-'*40)
+    print('-'*20)
     return city, month, day
 
 
@@ -111,7 +111,7 @@ def time_stats(df):
     print("\nThe most popular hour of the day for bike rentals is {}.".format(popular_start_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*20)
 
 
 def station_stats(df):
@@ -134,7 +134,7 @@ def station_stats(df):
     print("\nThe most popular station combination is {}.".format(popular_start_end_combo))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*20)
 
 
 def trip_duration_stats(df):
@@ -152,7 +152,7 @@ def trip_duration_stats(df):
     print("\nThe average travel time was {} seconds.".format(average_travel_time))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*20)
 
 
 def user_stats(df):
@@ -192,7 +192,7 @@ def user_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*20)
 
 
 def main():
