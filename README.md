@@ -15,3 +15,7 @@ Python-based program designed to explore bikeshare data in Washington, New York 
 
 ### Credits:
 Submitted as part of Udacity's "Programming for Data Science" course curriculum
+
+### Built with:
+- [Atom](https://atom.io/)
+- [Python](https://www.python.org/)
