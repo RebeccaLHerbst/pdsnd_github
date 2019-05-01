@@ -111,7 +111,6 @@ def time_stats(df):
     popular_start_hour = df['start_hour'].mode()[0]
     print("\nThe most popular hour of the day for bike rentals is {}.".format(popular_start_hour))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*20)
 
 
@@ -134,7 +133,6 @@ def station_stats(df):
     popular_start_end_combo = df['Popular Start-End Combo'].mode()[0]
     print("\nThe most popular station combination is {}.".format(popular_start_end_combo))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*20)
 
 
@@ -152,7 +150,6 @@ def trip_duration_stats(df):
     average_travel_time = round(df['Trip Duration'].mean())
     print("\nThe average travel time was {} seconds.".format(average_travel_time))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*20)
 
 
@@ -192,7 +189,6 @@ def user_stats(df):
         print("\nSorry, this city doesn't have birth year data.")
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*20)
 
 
